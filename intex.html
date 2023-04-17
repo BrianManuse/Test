@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire d inscription</title>
+</head>
+<body>
+    <form>
+        <label>Prénom : <input type="text"></label>
+      </form>
+      <form>
+        <label>Nom: <input type="text"></label>
+      </form>
+      <form>
+        <label>Age : <input type="text"></label>
+      </form>
+      <p>Choisir sexe</p>
+       <p>
+	     Homme: <input type="radio" name="sex">
+	     Femme: <input type="radio" name="sex">
+       </p>
+      <label for="email">Enter votre addresse email:</label>
+       <input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required>
+      <form>
+        <label>Adresse postale : <input type="text"></label>
+      </form>
+      <form>
+        <label for="codepostal">Code postal :</label>
+
+        <input type="text" id="codepostal" name="codepostal" placeholder="59300"
+      
+            pattern="^ [ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy][0-9][ABCEGHJKLMNPRSTVWXYZabceghjklmnprstvwxyz] ?[0-9][ABCEGHJKLMNPRSTVWXYZabceghjklmnprstvwxyz][0-9]$"
+      
+            title="59300" />
+      </form>
+      <form>
+        <label>Ville : <input type="text"></label>
+      </form>
+      <form>
+      <label>quel a été votre métier exercé: <input type="text"></label>
+      </form>
+      <form>
+      <label>Nationalité : <input type="text"></label>
+      </form>
+     <form>
+     <label for="start"> Date de Naissance:</label>
+      <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1940-01-01" max="2030-12-31">
+    </form>
+<form>
+<select>
+<option value="FRA">Française (France)</option>
+<option value="ITA">Italienne (Italie)</option>
+<option value="CHE">Suisse (Suisse)</option>
+<option value="TUR">Turque (Turquie)</option>
+<option value="ESP">Espagnole (Espagne)</option>
+<option value="ROU">Roumaine (Roumanie)</option>
+<option value="POL">Polonaise (Pologne)</option>
+<option value="PRT">Portugaise (Portugal)</option>
+<option value="MCO">Monegasque (Monaco)</option>
+<option value="IRL">Irlandaise (Irlande)</option>
+<option value="DEU">Allemande (Allemagne)</option>
+<option value="BEL">Belge (Belgique)</option>
+<option value="GBR">Britannique (Royaume-Uni)</option>
+<option value="NLD">Néerlandaise (Pays-Bas)</option>
+<option value="ISL">Islandaise (Islande)</option>
+</select>
+</form>
+<from>
+<label>Numéro de sécurité social :<input type="text"></label>
+      </form>
+      <form>
+        <label>Numéro du passeport : <input type="text"></label>
+      </form>
+      <form>
+        <label for="start"> Date de délivrance du passeport:</label>
+         <input type="date" id="start" name="trip-start"
+          value="2018-07-22"
+          min="1940-01-01" max="2030-12-31">
+       </form>
+       <form>
+        <label for="start"> Date de validité du passeport:</label>
+         <input type="date" id="start" name="trip-start"
+          value="2018-07-22"
+          min="1940-01-01" max="2030-12-31">
+       </form>
+</body>
+</html>
